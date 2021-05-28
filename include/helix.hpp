@@ -16,4 +16,5 @@ public:
 
     virtual std::array<float, 3> cartesian_coords(float t) const;
     virtual std::array<float, 3> grad(float t) const;
+    virtual ~helix() override;
 };
