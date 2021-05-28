@@ -8,4 +8,5 @@ public:
 	circle(const float& R);
 
 	float R() const;
+	virtual ~circle() override;
 };
